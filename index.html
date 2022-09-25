@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Encriptador</title>
+		<link rel="stylesheet" type="text/css" href="C:\Users\lucasd625\Desktop\Alura/reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" type="text/css" href="reset.css">
+
+	</head>
+
+	<body>
+
+		<main>
+
+			<section class="vect">
+				<img src="Vector.png" class="vector" alt="Logo Alura">
+			</section>
+
+
+			<section class="text">
+				<textarea class="input-text" placeholder="Ingrese el texto aquí"></textarea>
+			</section>
+
+			<section class="buttons">
+				<div class="advertencia">
+					<span class="material-symbols-outlined">error</span>
+					<h1>Solo letras minúsculas y sin acentos</h1>
+				</div>
+				<div class="first">
+					<input type="button" name="" value="Encriptar" class="encriptar" onclick="btnEncriptar()">
+			    </div>
+
+				<div class="second">
+					<input type="button" name="" value="Desencriptar" class="desencriptar" onclick="btnDesencriptar()">
+				</div>
+			</section>
+
+			<section class="mensajeSin">
+				<div class="caja-mensajeSin">
+					<div class="sinTexto">
+						<img src="Muñeco.png" class="muñeco">
+						<h2>Ningún mensaje fue encontrado</h2>
+						<h3>Ingresa el texto que desees encriptar o desencriptar</h3>
+					</div>
+				</div>
+			</section>
+
+			<section class="mensajeCon">
+				<div class="caja-mensajeCon">
+					<div class="conTexto">
+						<textarea class="text-mensaje" readonly cols="20"></textarea>
+						<input type="button" name="" value="Copiar" onclick="copiar()" class="boton-copiar">
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<script src="script.js"></script>
+
+	</body>
+
+</html>
