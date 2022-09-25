@@ -195,6 +195,7 @@ main{
 }
 
 .mensajeSin h2{
+	font-family: 'Inter', sans-serif;
 	display: inline-block;
 	text-align: center;
 	color: #343A40;
