@@ -7,7 +7,7 @@ main{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(6, 1fr);
-	height: 99vh;
+	height: 97vh;
 }
 
 .vect{
@@ -204,6 +204,7 @@ main{
 }
 
 .mensajeSin h3{
+	font-family: 'Inter', sans-serif;
 	display: inline-block;
 	text-align: center;
 	color: #495057;
